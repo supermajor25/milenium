@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "milenium:rodiumingot"
+    },
+    "2": {
+      "item": "milenium:rodiumingot"
+    },
+    "3": {
+      "item": "milenium:rodiumingot"
+    },
+    "4": {
+      "item": "milenium:rodiumingot"
+    },
+    "5": {
+      "item": "milenium:rodiumingot"
+    },
+    "6": {
+      "item": "milenium:rodiumingot"
+    },
+    "7": {
+      "item": "milenium:rodiumingot"
+    },
+    "8": {
+      "item": "milenium:rodiumingot"
+    }
+  },
+  "result": {
+    "item": "milenium:rodiumhelmet_chestplate",
+    "count": 1
+  }
+}

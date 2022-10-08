@@ -1,0 +1,27 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "rodium_hoe2",
+    "customModelName": "Normal",
+    "name": "Rodiumhoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Milenium"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 3,
+    "efficiency": 8.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 4000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

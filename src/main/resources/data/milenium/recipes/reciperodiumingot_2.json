@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "milenium:rodiumnughet"
+    },
+    "1": {
+      "item": "milenium:rodiumnughet"
+    },
+    "2": {
+      "item": "milenium:rodiumnughet"
+    },
+    "3": {
+      "item": "milenium:rodiumnughet"
+    },
+    "4": {
+      "item": "milenium:rodiumnughet"
+    },
+    "5": {
+      "item": "milenium:rodiumnughet"
+    },
+    "6": {
+      "item": "milenium:rodiumnughet"
+    },
+    "7": {
+      "item": "milenium:rodiumnughet"
+    },
+    "8": {
+      "item": "milenium:rodiumnughet"
+    }
+  },
+  "result": {
+    "item": "milenium:rodiumingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "rodium_sword",
+    "customModelName": "Normal",
+    "name": "Rodiumsword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Milenium"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 3,
+    "efficiency": 4.0,
+    "attackSpeed": 5.0,
+    "enchantability": 2,
+    "damageVsEntity": 10.0,
+    "usageCount": 4000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

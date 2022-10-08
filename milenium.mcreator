@@ -1,0 +1,306 @@
+{
+  "mod_elements": [
+    {
+      "name": "Rodiumpickaxe",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodiumpickaxe"
+    },
+    {
+      "name": "Milenium",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milenium"
+    },
+    {
+      "name": "Rodiumore",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodiumore"
+    },
+    {
+      "name": "Rodiumaxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodiumaxe"
+    },
+    {
+      "name": "Rodiumshovel",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodiumshovel"
+    },
+    {
+      "name": "Rodiumhoe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodiumhoe"
+    },
+    {
+      "name": "Rodiumsword",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodiumsword"
+    },
+    {
+      "name": "Rodiumingot",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodiumingot"
+    },
+    {
+      "name": "Rodiumshear",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodiumshear"
+    },
+    {
+      "name": "Rodiumhelmet",
+      "type": "armor",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodiumhelmet",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Reciperodiumaxe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reciperodiumaxe"
+    },
+    {
+      "name": "Reciperodiumpickaxe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reciperodiumpickaxe"
+    },
+    {
+      "name": "Reciperodiumingot",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reciperodiumingot"
+    },
+    {
+      "name": "Rodiumswordrecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodiumswordrecipe"
+    },
+    {
+      "name": "Rodiumshovelrecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodiumshovelrecipe"
+    },
+    {
+      "name": "Rodiumhoerecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodiumhoerecipe"
+    },
+    {
+      "name": "Rodiumshearrecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodiumshearrecipe"
+    },
+    {
+      "name": "Rodiumhelmetrecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodiumhelmetrecipe"
+    },
+    {
+      "name": "Rodiumshestplaterecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodiumshestplaterecipe"
+    },
+    {
+      "name": "Rodiumbootrecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodiumbootrecipe"
+    },
+    {
+      "name": "Rodiumlegingrecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodiumlegingrecipe"
+    },
+    {
+      "name": "Rodiumblock",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodiumblock"
+    },
+    {
+      "name": "Rodiumblockrecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodiumblockrecipe"
+    },
+    {
+      "name": "Rodiumnughet",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodiumnughet"
+    },
+    {
+      "name": "Nughetrodium",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nughetrodium"
+    },
+    {
+      "name": "Reciperodiumingot2",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reciperodiumingot_2"
+    },
+    {
+      "name": "Reciperodiumingot3",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reciperodiumingot_3"
+    },
+    {
+      "name": "Trium",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trium_ore"
+    },
+    {
+      "name": "Triumingot",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumingot"
+    },
+    {
+      "name": "Triumsword",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumsword"
+    },
+    {
+      "name": "Triumshovel",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumshovel"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabmilenium": "Milenium",
+      "item.milenium.rodiumhelmet_boots": "Rodiumhelmet Boots",
+      "item.milenium.rodiumhoe": "Rodiumhoe",
+      "item.milenium.rodiumnughet": "Rodiumnughet",
+      "item.milenium.triumshovel": "Triumshovel",
+      "item.milenium.rodiumshovel": "Rodiumshovel",
+      "block.milenium.trium_ore": "Trium",
+      "item.milenium.rodiumhelmet_leggings": "Rodiumhelmet Leggings",
+      "item.milenium.triumsword": "Triumsword",
+      "block.milenium.rodiumblock": "Rodiumblock",
+      "item.milenium.rodiumaxe": "Rodiumaxe",
+      "item.milenium.rodiumpickaxe": "Rodiumpickaxe",
+      "block.milenium.rodiumore": "Rodiumore",
+      "item.milenium.rodiumingot": "Rodiumingot",
+      "item.milenium.triumingot": "Triumingot",
+      "item.milenium.rodiumhelmet_helmet": "Rodiumhelmet Helmet",
+      "item.milenium.rodiumhelmet_chestplate": "Rodiumhelmet Body",
+      "item.milenium.rodiumshear": "Rodiumshear",
+      "item.milenium.rodiumsword": "Rodiumsword"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "milenium",
+    "modName": "milenium",
+    "version": "1.0.0",
+    "author": "matth, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.milenium",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 ",
+    " 3"
+  ],
+  "key": {
+    "0": {
+      "item": "milenium:rodiumingot"
+    },
+    "3": {
+      "item": "milenium:rodiumingot"
+    }
+  },
+  "result": {
+    "item": "milenium:rodiumshear",
+    "count": 1
+  }
+}

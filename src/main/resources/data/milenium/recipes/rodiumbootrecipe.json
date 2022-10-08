@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "milenium:rodiumingot"
+    },
+    "2": {
+      "item": "milenium:rodiumingot"
+    },
+    "3": {
+      "item": "milenium:rodiumingot"
+    },
+    "5": {
+      "item": "milenium:rodiumingot"
+    }
+  },
+  "result": {
+    "item": "milenium:rodiumhelmet_boots",
+    "count": 1
+  }
+}

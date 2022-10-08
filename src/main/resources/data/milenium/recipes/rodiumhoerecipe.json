@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "milenium:rodiumingot"
+    },
+    "1": {
+      "item": "milenium:rodiumingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "milenium:rodiumhoe",
+    "count": 1
+  }
+}

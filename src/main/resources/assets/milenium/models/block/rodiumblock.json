@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "milenium:blocks/rodium_block",
+    "up": "milenium:blocks/rodium_block",
+    "north": "milenium:blocks/rodium_block",
+    "east": "milenium:blocks/rodium_block",
+    "south": "milenium:blocks/rodium_block",
+    "west": "milenium:blocks/rodium_block",
+    "particle": "milenium:blocks/rodium_block"
+  }
+}
