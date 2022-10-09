@@ -13,31 +13,31 @@ import net.mcreator.milenium.itemgroup.MileniumItemGroup;
 import net.mcreator.milenium.MileniumModElements;
 
 @MileniumModElements.ModElement.Tag
-public class RodiumaxeItem extends MileniumModElements.ModElement {
-	@ObjectHolder("milenium:rodiumaxe")
+public class TriumaxeItem extends MileniumModElements.ModElement {
+	@ObjectHolder("milenium:triumaxe")
 	public static final Item block = null;
 
-	public RodiumaxeItem(MileniumModElements instance) {
-		super(instance, 3);
+	public TriumaxeItem(MileniumModElements instance) {
+		super(instance, 31);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 4000;
+				return 100;
 			}
 
 			public float getEfficiency() {
-				return 8f;
+				return 4f;
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 8f;
 			}
 
 			public int getHarvestLevel() {
-				return 3;
+				return 4;
 			}
 
 			public int getEnchantability() {
@@ -45,9 +45,9 @@ public class RodiumaxeItem extends MileniumModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(RodiumingotItem.block));
+				return Ingredient.fromStacks(new ItemStack(TriumingotItem.block));
 			}
-		}, 1, -3f, new Item.Properties().group(MileniumItemGroup.tab).isImmuneToFire()) {
-		}.setRegistryName("rodiumaxe"));
+		}, 1, 0f, new Item.Properties().group(MileniumItemGroup.tab)) {
+		}.setRegistryName("triumaxe"));
 	}
 }

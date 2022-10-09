@@ -5,6 +5,7 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ShovelItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
@@ -44,7 +45,7 @@ public class RodiumshovelItem extends MileniumModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(RodiumingotItem.block));
 			}
 		}, 1, -3f, new Item.Properties().group(MileniumItemGroup.tab).isImmuneToFire()) {
 		}.setRegistryName("rodiumshovel"));

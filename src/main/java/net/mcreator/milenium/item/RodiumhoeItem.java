@@ -4,6 +4,7 @@ package net.mcreator.milenium.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.HoeItem;
@@ -44,7 +45,7 @@ public class RodiumhoeItem extends MileniumModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(RodiumingotItem.block));
 			}
 		}, 0, -3f, new Item.Properties().group(MileniumItemGroup.tab).isImmuneToFire()) {
 		}.setRegistryName("rodiumhoe"));

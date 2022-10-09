@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "milenium:triumingot"
+    },
+    "1": {
+      "item": "milenium:triumingot"
+    },
+    "2": {
+      "item": "milenium:triumingot"
+    },
+    "3": {
+      "item": "milenium:triumingot"
+    },
+    "5": {
+      "item": "milenium:triumingot"
+    }
+  },
+  "result": {
+    "item": "milenium:triumarmor_helmet",
+    "count": 1
+  }
+}

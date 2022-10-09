@@ -253,6 +253,180 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "triumshovel"
+    },
+    {
+      "name": "Triumaxe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumaxe"
+    },
+    {
+      "name": "TriumarmorEvenementDeTickDuCasque",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumarmor_evenement_de_tick_du_casque",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TriumarmorEvenementDeTickDesBottes",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumarmor_evenement_de_tick_des_bottes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TriumarmorEvenementDeTickDesJambieres",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumarmor_evenement_de_tick_des_jambieres",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Triumarmor",
+      "type": "armor",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumarmor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Triumpickaxe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumpickaxe"
+    },
+    {
+      "name": "Triumblock",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumblock"
+    },
+    {
+      "name": "Triumaxerecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumaxerecipe"
+    },
+    {
+      "name": "Triumshovelrecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumshovelrecipe"
+    },
+    {
+      "name": "Triumswordrecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumswordrecipe"
+    },
+    {
+      "name": "Triumpickaxerecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumpickaxerecipe"
+    },
+    {
+      "name": "Triumhelmetrecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumhelmetrecipe"
+    },
+    {
+      "name": "Triumchespalterezcipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumchespalterezcipe"
+    },
+    {
+      "name": "Triumlegingrecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumlegingrecipe"
+    },
+    {
+      "name": "Triumbootrecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumbootrecipe"
+    },
+    {
+      "name": "Triumingotrecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumingotrecipe"
+    },
+    {
+      "name": "Triumblockrecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumblockrecipe"
+    },
+    {
+      "name": "Triumingotrecipe2",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triumingotrecipe_2"
     }
   ],
   "variable_elements": [],
@@ -260,23 +434,30 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabmilenium": "Milenium",
-      "item.milenium.rodiumhelmet_boots": "Rodiumhelmet Boots",
+      "item.milenium.triumarmor_helmet": "Casque en Triumarmor",
       "item.milenium.rodiumhoe": "Rodiumhoe",
       "item.milenium.rodiumnughet": "Rodiumnughet",
       "item.milenium.triumshovel": "Triumshovel",
       "item.milenium.rodiumshovel": "Rodiumshovel",
       "block.milenium.trium_ore": "Trium",
       "item.milenium.rodiumhelmet_leggings": "Rodiumhelmet Leggings",
-      "item.milenium.triumsword": "Triumsword",
+      "item.milenium.triumaxe": "Triumaxe",
+      "block.milenium.triumblock": "Triumblock",
       "block.milenium.rodiumblock": "Rodiumblock",
+      "item.milenium.triumingot": "Triumingot",
+      "item.milenium.rodiumhelmet_chestplate": "Rodiumhelmet Body",
+      "item.milenium.rodiumshear": "Rodiumshear",
+      "item.milenium.triumpickaxe": "Triumpickaxe",
+      "item.milenium.rodiumhelmet_boots": "Rodiumhelmet Boots",
+      "item.milenium.triumarmor_chestplate": "Plastron de Triumarmor",
+      "item.milenium.triumarmor_leggings": "Jambières de Triumarmor",
+      "item.milenium.triumsword": "Triumsword",
       "item.milenium.rodiumaxe": "Rodiumaxe",
       "item.milenium.rodiumpickaxe": "Rodiumpickaxe",
       "block.milenium.rodiumore": "Rodiumore",
       "item.milenium.rodiumingot": "Rodiumingot",
-      "item.milenium.triumingot": "Triumingot",
       "item.milenium.rodiumhelmet_helmet": "Rodiumhelmet Helmet",
-      "item.milenium.rodiumhelmet_chestplate": "Rodiumhelmet Body",
-      "item.milenium.rodiumshear": "Rodiumshear",
+      "item.milenium.triumarmor_boots": "Bottes en Triumarmor",
       "item.milenium.rodiumsword": "Rodiumsword"
     }
   },

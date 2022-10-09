@@ -1,0 +1,71 @@
+{
+  "_fv": 33,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "trium_armor_head",
+    "enableBody": true,
+    "textureBody": "trium_armor_body",
+    "enableLeggings": true,
+    "textureLeggings": "trium_armor_leggings",
+    "enableBoots": true,
+    "textureBoots": "trium_armor_boots",
+    "onHelmetTick": {
+      "name": "TriumarmorEvenementDeTickDuCasque"
+    },
+    "onLeggingsTick": {
+      "name": "TriumarmorEvenementDeTickDesJambieres"
+    },
+    "onBootsTick": {
+      "name": "TriumarmorEvenementDeTickDesBottes"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Milenium"
+    },
+    "armorTextureFile": "trium_armor",
+    "helmetName": "Casque en Triumarmor",
+    "bodyName": "Plastron de Triumarmor",
+    "leggingsName": "Jambières de Triumarmor",
+    "bootsName": "Bottes en Triumarmor",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 35,
+    "damageValueHelmet": 7,
+    "damageValueBody": 6,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 4,
+    "enchantability": 9,
+    "toughness": 3.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Triumingot"
+      }
+    ]
+  }
+}

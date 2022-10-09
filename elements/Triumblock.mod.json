@@ -2,12 +2,12 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "trium_ore",
-    "textureTop": "trium_ore",
-    "textureLeft": "trium_ore",
-    "textureFront": "trium_ore",
-    "textureRight": "trium_ore",
-    "textureBack": "trium_ore",
+    "texture": "trium_block",
+    "textureTop": "trium_block",
+    "textureLeft": "trium_block",
+    "textureFront": "trium_block",
+    "textureRight": "trium_block",
+    "textureBack": "trium_block",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Trium",
+    "name": "Triumblock",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -69,6 +69,10 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "beaconColorModifier": {
+      "value": -6750055,
+      "falpha": 0.0
+    },
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
@@ -79,7 +83,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
@@ -123,19 +127,13 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 8,
-    "frequencyOnChunk": 7,
-    "minGenerateHeight": 2,
-    "maxGenerateHeight": 20
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 1
   }
 }

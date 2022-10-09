@@ -4,32 +4,32 @@ package net.mcreator.milenium.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
-import net.minecraft.item.AxeItem;
 
 import net.mcreator.milenium.itemgroup.MileniumItemGroup;
 import net.mcreator.milenium.MileniumModElements;
 
 @MileniumModElements.ModElement.Tag
-public class RodiumaxeItem extends MileniumModElements.ModElement {
-	@ObjectHolder("milenium:rodiumaxe")
+public class TriumpickaxeItem extends MileniumModElements.ModElement {
+	@ObjectHolder("milenium:triumpickaxe")
 	public static final Item block = null;
 
-	public RodiumaxeItem(MileniumModElements instance) {
-		super(instance, 3);
+	public TriumpickaxeItem(MileniumModElements instance) {
+		super(instance, 35);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new AxeItem(new IItemTier() {
+		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 4000;
+				return 6000;
 			}
 
 			public float getEfficiency() {
-				return 8f;
+				return 9f;
 			}
 
 			public float getAttackDamage() {
@@ -37,7 +37,7 @@ public class RodiumaxeItem extends MileniumModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 3;
+				return 4;
 			}
 
 			public int getEnchantability() {
@@ -45,9 +45,9 @@ public class RodiumaxeItem extends MileniumModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(RodiumingotItem.block));
+				return Ingredient.fromStacks(new ItemStack(TriumingotItem.block));
 			}
-		}, 1, -3f, new Item.Properties().group(MileniumItemGroup.tab).isImmuneToFire()) {
-		}.setRegistryName("rodiumaxe"));
+		}, 1, -3f, new Item.Properties().group(MileniumItemGroup.tab)) {
+		}.setRegistryName("triumpickaxe"));
 	}
 }

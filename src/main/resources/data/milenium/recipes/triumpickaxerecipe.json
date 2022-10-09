@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "milenium:triumingot"
+    },
+    "1": {
+      "item": "milenium:triumingot"
+    },
+    "2": {
+      "item": "milenium:triumingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "milenium:triumpickaxe",
+    "count": 1
+  }
+}

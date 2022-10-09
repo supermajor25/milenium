@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "milenium:blocks/trium_block",
+    "up": "milenium:blocks/trium_block",
+    "north": "milenium:blocks/trium_block",
+    "east": "milenium:blocks/trium_block",
+    "south": "milenium:blocks/trium_block",
+    "west": "milenium:blocks/trium_block",
+    "particle": "milenium:blocks/trium_block"
+  }
+}

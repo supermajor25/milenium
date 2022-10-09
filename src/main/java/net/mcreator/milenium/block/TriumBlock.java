@@ -116,8 +116,8 @@ public class TriumBlock extends MileniumModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(12)
-					.square().func_242731_b(3);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 7)).range(20)
+					.square().func_242731_b(8);
 			event.getRegistry().register(feature.setRegistryName("trium_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("milenium:trium_ore"), configuredFeature);
 		}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "milenium:triumblock"
+    }
+  },
+  "result": {
+    "item": "milenium:triumingot",
+    "count": 9
+  }
+}

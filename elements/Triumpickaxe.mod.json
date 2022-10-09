@@ -3,28 +3,28 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "rodium_pickaxe",
+    "texture": "trium_pickaxe",
     "customModelName": "Normal",
-    "name": "Rodiumpickaxe",
+    "name": "Triumpickaxe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Milenium"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 3,
-    "efficiency": 8.0,
-    "attackSpeed": 2.0,
+    "harvestLevel": 4,
+    "efficiency": 9.0,
+    "attackSpeed": 1.0,
     "enchantability": 2,
     "damageVsEntity": 4.0,
-    "usageCount": 100,
+    "usageCount": 6000,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:Rodiumingot"
+        "value": "CUSTOM:Triumingot"
       }
     ],
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

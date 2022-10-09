@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "milenium:triumingot"
+    },
+    "1": {
+      "item": "milenium:triumingot"
+    },
+    "2": {
+      "item": "milenium:triumingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "milenium:triumaxe",
+    "count": 1
+  }
+}

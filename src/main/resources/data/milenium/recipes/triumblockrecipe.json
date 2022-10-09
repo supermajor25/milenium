@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "milenium:triumingot"
+    },
+    "1": {
+      "item": "milenium:triumingot"
+    },
+    "2": {
+      "item": "milenium:triumingot"
+    },
+    "3": {
+      "item": "milenium:triumingot"
+    },
+    "4": {
+      "item": "milenium:triumingot"
+    },
+    "5": {
+      "item": "milenium:triumingot"
+    },
+    "6": {
+      "item": "milenium:triumingot"
+    },
+    "7": {
+      "item": "milenium:triumingot"
+    },
+    "8": {
+      "item": "milenium:triumingot"
+    }
+  },
+  "result": {
+    "item": "milenium:triumblock",
+    "count": 1
+  }
+}
